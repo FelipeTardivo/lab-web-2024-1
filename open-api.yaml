@@ -149,6 +149,8 @@ paths:
       responses:
         '204':
           description: Autor removido com sucesso
+        '400':
+          description: Não é possível deletar um autor que esteja relacionado a um ou mais livros
         '404':
           description: Autor não encontrado
 
